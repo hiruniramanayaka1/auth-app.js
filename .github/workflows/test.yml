@@ -12,6 +12,7 @@ jobs:
   test_matrix:
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: true
       matrix:
         node_version:
           - 20
